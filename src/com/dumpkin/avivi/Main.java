@@ -12,8 +12,7 @@ public class Main {
         Word checkWord = new Word();
         String biggestPalindrome = "";
 
-        System.out.println(Str+"\n");
-
+        System.out.println(Str + "\n");
 
         for (String retval : Str.split(" ")) {
             checkWord.setText(retval.toLowerCase());
@@ -25,10 +24,11 @@ public class Main {
             }
 
             // druk slova dla testa
-       //     System.out.println(retval + " " + " довжина " + checkWord.getLenght());
+
+            //System.out.println(retval + " " + " довжина " + checkWord.getLenght());
 
         }
         System.out.println("________________________________________________");
-        System.out.println("найыльше слово палындром: "+biggestPalindrome);
+        System.out.println("найыльше слово палындром: " + biggestPalindrome);
     }
 }
